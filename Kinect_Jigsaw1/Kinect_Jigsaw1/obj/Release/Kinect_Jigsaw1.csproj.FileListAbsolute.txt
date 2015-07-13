@@ -1,0 +1,58 @@
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\bin\Release\Kinect_Jigsaw1.exe.config
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\bin\Release\KinectInteraction180_32.dll
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\bin\Release\KinectInteraction180_64.dll
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\bin\Release\Kinect_Jigsaw1.exe
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\bin\Release\Kinect_Jigsaw1.pdb
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\bin\Release\Coding4Fun.Kinect.Wpf.dll
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\bin\Release\Kinect.Toolbox.dll
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\bin\Release\Kinect.Toolbox.Voice.dll
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\bin\Release\KinectMouseController.dll
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\bin\Release\Microsoft.Expression.Drawing.dll
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\bin\Release\Microsoft.Kinect.Toolkit.Controls.dll
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\bin\Release\Microsoft.Kinect.Toolkit.dll
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\bin\Release\Microsoft.Kinect.Toolkit.FaceTracking.dll
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\bin\Release\System.Windows.Interactivity.dll
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\bin\Release\Microsoft.Kinect.Toolkit.Interaction.dll
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\bin\Release\Microsoft.Kinect.Toolkit.Controls.pdb
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\bin\Release\Microsoft.Kinect.Toolkit.pdb
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\bin\Release\de\System.Windows.Interactivity.resources.dll
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\bin\Release\en\System.Windows.Interactivity.resources.dll
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\bin\Release\es\System.Windows.Interactivity.resources.dll
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\bin\Release\fr\System.Windows.Interactivity.resources.dll
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\bin\Release\it\System.Windows.Interactivity.resources.dll
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\bin\Release\ja\System.Windows.Interactivity.resources.dll
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\bin\Release\ko\System.Windows.Interactivity.resources.dll
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\bin\Release\ru\System.Windows.Interactivity.resources.dll
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\bin\Release\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\bin\Release\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\obj\Release\Kinect_Jigsaw1.csprojResolveAssemblyReference.cache
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\obj\Release\Kinect_Jigsaw1.csproj.Kinect_Jigsaw1.exe.config
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\obj\Release\Behaviours\HoverProgressControl.baml
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\obj\Release\Common\StandardStyles.baml
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\obj\Release\Behaviours\HoverProgressControl.g.cs
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\obj\Release\MainWindow.g.cs
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\obj\Release\App.g.cs
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\obj\Release\Kinect_Jigsaw1_Content.g.cs
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\obj\Release\Kinect_Jigsaw1_MarkupCompile.cache
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\obj\Release\Kinect_Jigsaw1_MarkupCompile.lref
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\obj\Release\MainWindow.baml
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\obj\Release\Kinect_Jigsaw1.g.resources
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\obj\Release\Kinect_Jigsaw1.Properties.Resources.resources
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\obj\Release\Kinect_Jigsaw1.csproj.GenerateResource.Cache
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\obj\Release\Kinect_Jigsaw1.exe
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\obj\Release\Kinect_Jigsaw1.pdb
+E:\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\bin\Release\Kinect_Jigsaw1.exe.config
+E:\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\obj\Release\Kinect_Jigsaw1.exe
+E:\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\obj\Release\Kinect_Jigsaw1.pdb
+E:\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\obj\Release\Kinect_Jigsaw1.csprojResolveAssemblyReference.cache
+E:\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\obj\Release\Kinect_Jigsaw1.csproj.Kinect_Jigsaw1.exe.config
+E:\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\obj\Release\Behaviours\HoverProgressControl.baml
+E:\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\obj\Release\Common\StandardStyles.baml
+E:\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\obj\Release\Behaviours\HoverProgressControl.g.cs
+E:\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\obj\Release\MainWindow.g.cs
+E:\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\obj\Release\App.g.cs
+E:\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\obj\Release\Kinect_Jigsaw1_Content.g.cs
+E:\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\obj\Release\GeneratedInternalTypeHelper.g.cs
+E:\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\obj\Release\Kinect_Jigsaw1_MarkupCompile.cache
+E:\Kinect__Jigsaw\Kinect_Jigsaw1\Kinect_Jigsaw1\obj\Release\Kinect_Jigsaw1_MarkupCompile.lref

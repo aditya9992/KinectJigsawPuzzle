@@ -1,0 +1,22 @@
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Microsoft.Kinect.Toolkit\bin\Release\Microsoft.Kinect.Toolkit.dll
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Microsoft.Kinect.Toolkit\bin\Release\Microsoft.Kinect.Toolkit.pdb
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Microsoft.Kinect.Toolkit\bin\Release\Microsoft.Kinect.Toolkit.dll.CodeAnalysisLog.xml
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Microsoft.Kinect.Toolkit\bin\Release\Microsoft.Kinect.Toolkit.dll.lastcodeanalysissucceeded
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Microsoft.Kinect.Toolkit\obj\Release\Microsoft.Kinect.Toolkit.csprojResolveAssemblyReference.cache
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Microsoft.Kinect.Toolkit\obj\Release\KinectSensorChooserUI.baml
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Microsoft.Kinect.Toolkit\obj\Release\KinectSensorChooserUI.g.cs
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Microsoft.Kinect.Toolkit\obj\Release\Microsoft.Kinect.Toolkit_MarkupCompile.cache
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Microsoft.Kinect.Toolkit\obj\Release\Microsoft.Kinect.Toolkit.g.resources
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Microsoft.Kinect.Toolkit\obj\Release\Microsoft.Kinect.Toolkit.Properties.Resources.resources
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Microsoft.Kinect.Toolkit\obj\Release\Microsoft.Kinect.Toolkit.csproj.GenerateResource.Cache
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Microsoft.Kinect.Toolkit\obj\Release\Microsoft.Kinect.Toolkit.dll
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Microsoft.Kinect.Toolkit\obj\Release\Microsoft.Kinect.Toolkit.pdb
+E:\Kinect__Jigsaw\Microsoft.Kinect.Toolkit\obj\Release\Microsoft.Kinect.Toolkit.csprojResolveAssemblyReference.cache
+E:\Kinect__Jigsaw\Microsoft.Kinect.Toolkit\obj\Release\KinectSensorChooserUI.baml
+E:\Kinect__Jigsaw\Microsoft.Kinect.Toolkit\obj\Release\KinectSensorChooserUI.g.cs
+E:\Kinect__Jigsaw\Microsoft.Kinect.Toolkit\obj\Release\Microsoft.Kinect.Toolkit_MarkupCompile.cache
+E:\Kinect__Jigsaw\Microsoft.Kinect.Toolkit\obj\Release\Microsoft.Kinect.Toolkit.g.resources
+E:\Kinect__Jigsaw\Microsoft.Kinect.Toolkit\obj\Release\Microsoft.Kinect.Toolkit.Properties.Resources.resources
+E:\Kinect__Jigsaw\Microsoft.Kinect.Toolkit\obj\Release\Microsoft.Kinect.Toolkit.csproj.GenerateResource.Cache
+E:\Kinect__Jigsaw\Microsoft.Kinect.Toolkit\obj\Release\Microsoft.Kinect.Toolkit.dll
+E:\Kinect__Jigsaw\Microsoft.Kinect.Toolkit\obj\Release\Microsoft.Kinect.Toolkit.pdb

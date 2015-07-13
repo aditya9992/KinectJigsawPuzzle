@@ -1,0 +1,18 @@
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\.Release\KinectInteraction180_32.dll
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\.Release\KinectInteraction180_64.dll
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\.Release\Microsoft.Kinect.Toolkit.Controls.dll
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Kinect_Jigsaw1\.Release\Microsoft.Kinect.Toolkit.Controls.pdb
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Microsoft.Kinect.Toolkit.Controls\obj\Release\Microsoft.Kinect.Toolkit.Controls.csprojResolveAssemblyReference.cache
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Microsoft.Kinect.Toolkit.Controls\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Microsoft.Kinect.Toolkit.Controls\obj\Release\Microsoft.Kinect.Toolkit.Controls_MarkupCompile.cache
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Microsoft.Kinect.Toolkit.Controls\obj\Release\Microsoft.Kinect.Toolkit.Controls_MarkupCompile.lref
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Microsoft.Kinect.Toolkit.Controls\obj\Release\Themes\Generic.baml
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Microsoft.Kinect.Toolkit.Controls\obj\Release\Microsoft.Kinect.Toolkit.Controls.g.resources
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Microsoft.Kinect.Toolkit.Controls\obj\Release\Microsoft.Kinect.Toolkit.Controls.dll
+C:\Users\Aditya Bhardwaj\Documents\Visual Studio 2013\Projects\Kinect__Jigsaw\Microsoft.Kinect.Toolkit.Controls\obj\Release\Microsoft.Kinect.Toolkit.Controls.pdb
+E:\Kinect__Jigsaw\Microsoft.Kinect.Toolkit.Controls\obj\Release\Microsoft.Kinect.Toolkit.Controls.csprojResolveAssemblyReference.cache
+E:\Kinect__Jigsaw\Microsoft.Kinect.Toolkit.Controls\obj\Release\GeneratedInternalTypeHelper.g.cs
+E:\Kinect__Jigsaw\Microsoft.Kinect.Toolkit.Controls\obj\Release\Microsoft.Kinect.Toolkit.Controls_MarkupCompile.cache
+E:\Kinect__Jigsaw\Microsoft.Kinect.Toolkit.Controls\obj\Release\Microsoft.Kinect.Toolkit.Controls_MarkupCompile.lref
+E:\Kinect__Jigsaw\Microsoft.Kinect.Toolkit.Controls\obj\Release\Microsoft.Kinect.Toolkit.Controls.dll
+E:\Kinect__Jigsaw\Microsoft.Kinect.Toolkit.Controls\obj\Release\Microsoft.Kinect.Toolkit.Controls.pdb

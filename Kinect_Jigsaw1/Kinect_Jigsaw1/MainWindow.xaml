@@ -1,0 +1,278 @@
+﻿<Window x:Class="Kinect_Jigsaw1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:k="http://schemas.microsoft.com/kinect/2013"
+        xmlns:local="clr-namespace:Kinect_Jigsaw1"
+        x:Name="win"
+        Height="720" Width="1280" ResizeMode="NoResize" WindowState="Maximized" WindowStyle="None" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <PathGeometry x:Key="ChevronGeometry" x:Shared="False">
+            F1M150.001,146.9932L126.565,169.3822L126.565,153.5962L150.001,130.6182L173.435,153.5962L173.435,169.3822z
+        </PathGeometry>
+
+        <Path x:Key="ChevronUp" Height="48" Width="48" Stretch="Uniform" Canvas.Top="0" x:Shared="False"
+          Data="{StaticResource ChevronGeometry}"
+          Fill="{Binding FallbackValue=Black, Path=Foreground,RelativeSource={RelativeSource AncestorType={x:Type local:KinectHoverButton}}}">
+            <Path.RenderTransformOrigin>0.5,0.5</Path.RenderTransformOrigin>
+            <Path.RenderTransform>
+                <RotateTransform Angle="0"/>
+            </Path.RenderTransform>
+        </Path>
+
+        <Path x:Key="ChevronRight" Height="48" Width="48" Stretch="Uniform" Canvas.Top="0" x:Shared="False"
+          Data="{StaticResource ChevronGeometry}"
+          Fill="{Binding FallbackValue=Black, Path=Foreground,RelativeSource={RelativeSource AncestorType={x:Type local:KinectHoverButton}}}">
+            <Path.RenderTransformOrigin>0.5,0.5</Path.RenderTransformOrigin>
+            <Path.RenderTransform>
+                <RotateTransform Angle="90"/>
+            </Path.RenderTransform>
+        </Path>
+
+        <Path x:Key="ChevronDown" Height="48" Width="48" Stretch="Uniform" Canvas.Top="0" x:Shared="False"
+          Data="{StaticResource ChevronGeometry}"
+          Fill="{Binding FallbackValue=Black, Path=Foreground,RelativeSource={RelativeSource AncestorType={x:Type local:KinectHoverButton}}}">
+            <Path.RenderTransformOrigin>0.5,0.5</Path.RenderTransformOrigin>
+            <Path.RenderTransform>
+                <RotateTransform Angle="180"/>
+            </Path.RenderTransform>
+        </Path>
+
+        <Path x:Key="ChevronLeft" Height="48" Width="48" Stretch="Uniform" Canvas.Top="0" x:Shared="False"
+          Data="{StaticResource ChevronGeometry}"
+          Fill="{Binding FallbackValue=Black, Path=Foreground,RelativeSource={RelativeSource AncestorType={x:Type local:KinectHoverButton}}}">
+            <Path.RenderTransformOrigin>0.5,0.5</Path.RenderTransformOrigin>
+            <Path.RenderTransform>
+                <RotateTransform Angle="270"/>
+            </Path.RenderTransform>
+        </Path>
+
+        <Style x:Key="KinectHoverButtonStyle" TargetType="{x:Type local:KinectHoverButton}">
+            <Setter Property="Background" Value="LightGray"/>
+            <Setter Property="BorderBrush" Value="DarkGray"/>
+            <Setter Property="BorderThickness" Value="0"></Setter>
+            <Setter Property="Foreground" Value="White"></Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type local:KinectHoverButton}">
+                        <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="{TemplateBinding Background}" Width="{TemplateBinding Width}" Height="{TemplateBinding Height}">
+                            <Border BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}">
+                                <ContentPresenter HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="{TemplateBinding Content}"></ContentPresenter>
+                            </Border>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsEnabled" Value="False">
+                    <Setter Property="Foreground" Value="LightGray"/>
+                    <Setter Property="BorderBrush" Value="LightGray"/>
+                    <Setter Property="Background" Value="Transparent"></Setter>
+                </Trigger>
+                <!--<Trigger Property="IsHandPointerOver" Value="True">
+                    <Setter Property="Background" Value="#5A5B5B"/>
+                    <Setter Property="Foreground" Value="White"/>
+                </Trigger>-->
+            </Style.Triggers>
+        </Style>
+
+        <Style x:Key="KinectHoverButtonScrollUpStyle" TargetType="{x:Type local:KinectHoverButton}" BasedOn="{StaticResource KinectHoverButtonStyle}">
+            <Setter Property="Content" Value="{StaticResource ChevronUp}"/>
+        </Style>
+
+        <Style x:Key="KinectHoverButtonScrollRightStyle" TargetType="{x:Type local:KinectHoverButton}" BasedOn="{StaticResource KinectHoverButtonStyle}">
+            <Setter Property="Content" Value="{StaticResource ChevronRight}"/>
+        </Style>
+
+        <Style x:Key="KinectHoverButtonScrollDownStyle" TargetType="{x:Type local:KinectHoverButton}" BasedOn="{StaticResource KinectHoverButtonStyle}">
+            <Setter Property="Content" Value="{StaticResource ChevronDown}"/>
+        </Style>
+
+        <Style x:Key="KinectHoverButtonScrollLeftStyle" TargetType="{x:Type local:KinectHoverButton}" BasedOn="{StaticResource KinectHoverButtonStyle}">
+            <Setter Property="Content" Value="{StaticResource ChevronLeft}"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid> 
+            <Grid  Margin="10 0 10 20" >
+                <Image HorizontalAlignment="Left" VerticalAlignment="Top" Name="AppLogo" Source="Images\Logo.png" Stretch="None" />
+                <k:KinectSensorChooserUI HorizontalAlignment="Center" VerticalAlignment="Top" Name="sensorChooserUi" />
+                <StackPanel HorizontalAlignment="Center" Height="150" VerticalAlignment="Top" >
+                    <k:KinectUserViewer k:KinectRegion.KinectRegion="{Binding ElementName=kinectRegion3}" Width="120" HorizontalAlignment="Center" VerticalAlignment="Top" />
+                    <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Name="ClockTextBlock" Visibility="Hidden"/>
+                </StackPanel>
+                
+            </Grid>
+        <k:KinectRegion x:Name="kinectRegion3" Visibility="Hidden" IsEnabled="False"/>
+        
+        <Grid x:Name="kinectRegion1" Visibility="Visible" IsEnabled="True">
+            <Grid x:Name="kinectRegionGrid1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="200"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <k:KinectCircleButton x:Name="exitButton" VerticalAlignment="Top" HorizontalAlignment="Right" Click="exitButton_Click">
+                        <TextBlock Text="x" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    </k:KinectCircleButton>
+                </Grid>
+                <WrapPanel Grid.Row="1" HorizontalAlignment="Center" x:Name="wrapPanel1" Orientation="Horizontal" >
+                    <k:KinectTileButton Label="Beginner" Name="beg" Click="beg_Click"/>
+                    <k:KinectTileButton Label="Intermediate" Name="inter" Click="inter_Click"/>
+                    <k:KinectTileButton Label="Advanced" Name="adv" Click="adv_Click"/>
+                </WrapPanel>
+            </Grid>
+        </Grid>
+
+        <Grid x:Name="kinectRegion" Visibility="Hidden" IsEnabled="False">
+            <Grid x:Name="kinectRegionGrid" Margin="10,20,10,20">
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="200"/>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="150" />
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <k:KinectCircleButton  HorizontalAlignment="Left" VerticalAlignment="Top" Visibility="Hidden" IsEnabled="False" x:Name="Home" Click="Home_Click" >
+                        <TextBlock Text="&lt;" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    </k:KinectCircleButton>
+                    <k:KinectCircleButton x:Name="exitButton1" VerticalAlignment="Top" HorizontalAlignment="Right" Click="exitButton_Click" >
+                        <TextBlock Text="x" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    </k:KinectCircleButton>
+                </Grid>
+                <k:KinectScrollViewer Grid.Row="1">
+                    <WrapPanel VerticalAlignment="Top" HorizontalAlignment="Center" x:Name="wrapPanel" Orientation="Horizontal">
+                        <!-- items for design layout.  They will be replaced at runtime. -->
+                        <k:KinectTileButton x:Name="img1" Label="1" Click="img1_Click">
+                            <Image Name="im1" Stretch="UniformToFill"/>
+                        </k:KinectTileButton>
+                        <k:KinectTileButton x:Name="img2" Label="2" Click="img2_Click">
+                            <Image Name="im2" Stretch="UniformToFill"/>
+                        </k:KinectTileButton>
+                        <k:KinectTileButton x:Name="img3" Label="3" Click="img3_Click">
+                            <Image Name="im3" Stretch="UniformToFill"/>
+                        </k:KinectTileButton>
+                        <k:KinectTileButton x:Name="img4" Label="4" Click="img4_Click">
+                            <Image Name="im4" Stretch="UniformToFill"/>
+                        </k:KinectTileButton>
+                        <k:KinectTileButton x:Name="img5" Label="5" Click="img5_Click">
+                            <Image Name="im5" Stretch="UniformToFill"/>
+                        </k:KinectTileButton>
+                        <k:KinectTileButton x:Name="img6" Label="6" Click="img6_Click">
+                            <Image Name="im6" Stretch="UniformToFill"/>
+                        </k:KinectTileButton>
+                        <k:KinectTileButton x:Name="img7" Label="7" Click="img7_Click" >
+                            <Image Name="im7" Stretch="UniformToFill"/>
+                        </k:KinectTileButton>
+                        <k:KinectTileButton x:Name="img8" Label="8" Click="img8_Click">
+                            <Image Name="im8" Stretch="UniformToFill"/>
+                        </k:KinectTileButton>
+                        <k:KinectTileButton x:Name="img9" Label="9" Click="img9_Click">
+                            <Image Name="im9" Stretch="UniformToFill"/>
+                        </k:KinectTileButton>
+                        <k:KinectTileButton x:Name="img10" Label="10" Click="img10_Click">
+                            <Image Name="im10" Stretch="UniformToFill"/>
+                        </k:KinectTileButton>
+                    </WrapPanel>
+                </k:KinectScrollViewer>
+                <Grid Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0, 10, 0, 10">
+                    <k:KinectTileButton  x:Name="importHover" HorizontalAlignment="Center" VerticalAlignment="Center" Click="importHover_Click" IsEnabled="True">
+                        <TextBlock FontWeight="Bold" FontStretch="Expanded" HorizontalAlignment="Center" VerticalAlignment="Center" >IMPORT</TextBlock>
+                    </k:KinectTileButton>
+                </Grid>
+            </Grid>
+        </Grid>
+        
+        <Grid x:Name="kinectRegion2" Visibility="Hidden" IsEnabled="False">
+            <Grid Name="grdRoot" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="200"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <k:KinectCircleButton  HorizontalAlignment="Left" VerticalAlignment="Top" Visibility="Hidden" IsEnabled="False" x:Name="Home1" Click="Home_Click" >
+                        <TextBlock Text="&lt;" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    </k:KinectCircleButton>
+                    <k:KinectCircleButton x:Name="exitButton2" VerticalAlignment="Top" HorizontalAlignment="Right" Click="exitButton_Click">
+                        <TextBlock Text="x" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    </k:KinectCircleButton>
+                </Grid>
+                <Grid Name="grdWindow" Grid.Row="1" Margin="24,0,24,24">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="32"/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="300"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RenderTransform>
+                        <ScaleTransform ScaleX="1.0" ScaleY="1.0"/>
+                    </Grid.RenderTransform>
+
+                    <StackPanel Grid.Row="1" Width="300" HorizontalAlignment="Left" VerticalAlignment="Stretch" Background="Transparent">
+                        <k:KinectCircleButton Name="btnShowImage" Click="btnShowImage_Click" Width="250" HorizontalAlignment="Center" Margin="10">
+                            <Grid>
+                                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Name="txtShowImage" FontSize="12" Text="Show Image"/>
+                            </Grid>
+                        </k:KinectCircleButton>
+                        <k:KinectCircleButton Name="btnShowPuzzle" Click="btnShowPuzzle_Click" Width="250" HorizontalAlignment="Center" Margin="10" Visibility="Collapsed">
+                            <Grid>
+                                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Name="txtShowPuzzle" FontSize="12" Text="Show Puzzle"/>
+                            </Grid>
+                        </k:KinectCircleButton>
+                        <k:KinectCircleButton Name="btnReset" Click="btnReset_Click" Width="250" HorizontalAlignment="Center" Margin="10" Visibility="Collapsed">
+                            <Grid>
+                                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Name="txtReset" FontSize="12" Text="Reset Puzzle"/>
+                            </Grid>
+                        </k:KinectCircleButton>
+                    </StackPanel>
+
+                    <Grid Name="grdPuzzle" Grid.Row="1" Grid.Column="1"  MouseEnter="DockPanel_MouseEnter">
+                        <Grid Background="White">
+                            <!--<Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="200"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>-->
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="200"/>
+                            </Grid.RowDefinitions>
+                            <Canvas Name="cnvPuzzle" Grid.Row="0"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="2000" Height="400" Background="White">
+
+                                <Canvas.RenderTransform>
+                                    <ScaleTransform 
+                                            ScaleX="{Binding ElementName=zoomSlider, Path=Value}"
+                                            ScaleY="{Binding ElementName=zoomSlider, Path=Value}"/>
+                                </Canvas.RenderTransform>
+
+                            </Canvas>
+                            <WrapPanel Name="pnlPickUp" Grid.Row="1"  Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Left" Height="200" Width="2000">
+                                <WrapPanel.RenderTransform>
+                                    <ScaleTransform 
+                                            ScaleX="{Binding ElementName=zoomSlider, Path=Value}"
+                                            ScaleY="{Binding ElementName=zoomSlider, Path=Value}"/>
+                                </WrapPanel.RenderTransform>
+                            </WrapPanel>
+                        </Grid>
+                    </Grid>
+                    
+                    <Grid Name="scvImage" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Bottom" Visibility="Visible">
+                        
+                        <Image Name="imgShowImage" Width="2000" Height="2000" HorizontalAlignment="Left" VerticalAlignment="Top" Stretch="None">
+                            <Image.RenderTransform>
+                                <ScaleTransform 
+                                    ScaleX="{Binding ElementName=zoomSlider, Path=Value}"
+                                    ScaleY="{Binding ElementName=zoomSlider, Path=Value}"/>
+                            </Image.RenderTransform>
+                            
+                        </Image>
+                        
+                    </Grid>
+
+                </Grid>
+
+            </Grid>
+        </Grid>
+        
+    </Grid>
+</Window>
